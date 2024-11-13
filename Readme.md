@@ -44,8 +44,10 @@ Given a flow logs file (A flow log record represents a network flow in your VPC)
 4. Any wrong formatted (appending two lines into a single line) considers only one/first line
 
 #### Output Screenshots: 
+
 #### Outfile.txt
 <img width="1091" alt="Screenshot 2024-11-12 at 9 28 42 PM" src="https://github.com/user-attachments/assets/3255f9f5-0532-40c9-a772-ee28d8ef1660">
+
 #### Response time calculated after populating file wit 10MB data
 <img width="1144" alt="Screenshot 2024-11-12 at 9 22 47 PM" src="https://github.com/user-attachments/assets/d513e755-2a1d-4975-bb08-222078e7a128">
 
