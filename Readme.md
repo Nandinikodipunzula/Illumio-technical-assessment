@@ -4,6 +4,7 @@
 
 Given a flow logs file (A flow log record represents a network flow in your VPC) of 10MB and a lookup file, parse the log file and generate a count based on tag and port_protocol
 
+
 ## Solution:
 
 ### Initial thoughts:
@@ -24,6 +25,10 @@ Given a flow logs file (A flow log record represents a network flow in your VPC)
         
         Note: I read all lines at once as the input size is smaller
               I did not want to introduce the extra overhead of streaming, filtering, mapping, and counting
+
+### Execution steps:
+
+   Check `Execution.md` file for execution instructions
 
 ### Approach:
 
